@@ -32,3 +32,4 @@ How to annotate and save video streams in a file for later use
 
 ![Capture_d_écran_16-6-2024_221557_www nvidia com-removebg-preview](https://github.com/hyper-ayoub/Jetson-Orin-Nano-Developer/assets/133155846/287e3077-c5a4-4a58-bb85-101b805342a8)
 
+![Jetson Nano](https://github.com/hyper-ayoub/Jetson-Orin-Nano-Developer/assets/133155846/2ce6ae5e-05b8-413e-813c-0af857a18411)
