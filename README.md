@@ -1,7 +1,5 @@
 # 🤖 Jetson-Orin-Nano-Developer
-Building Video AI Applications at the Edge on Jetson Nano
-
-
+Building Video AI Applications at the Edge on Jetson Nano                      ![headless_dev-mode_animation](https://github.com/hyper-ayoub/Jetson-Orin-Nano-Developer/assets/133155846/1cd73d39-5a1d-4a0a-8e6f-69f0fa7fc1fe)
 ## 1. 👽 Setting Up Your Jetson Nano
 You learned:
 
@@ -24,9 +22,6 @@ How to identify and count objects in a video stream using the DeepStream pipelin
 How to run multiple neural networks in a single pipeline to classify objects for more detailed insights
 How to analyze multiple video streams simultaneously using a DeepStream pipeline
 How to annotate and save video streams in a file for later use
-
-
-
 
 
 
