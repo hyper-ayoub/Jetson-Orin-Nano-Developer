@@ -1,0 +1,59 @@
+# using ssh connection with jetson Nano for communication
+
+# Setuo steps
+
+1:{
+
+ Connect your flashed JetPack microSD card and power supply (DC barrel jack for 4G kit, USBC connector for 2G kit). The Jetson Nano Developer Kit will power on and boot automatically.}
+
+2:{
+ A green LED next to the Micro-USB connector will light as soon as the developer kit powers on. Wait about 30 seconds. Then connect the USB cable from the Micro USB port on the Jetson Nano Developer Kit to the USB port on your computer.}
+
+
+3: { Connect your USB camera to a USB port on the Jetson Nano.}
+
+
+4:{ If you are downloading the Docker container with the course notebooks in it for the first time, connect your Nano to the Internet using the Ethernet port or a compatible WiFi device.}
+
+
+# terminal section
+On your computer, open a terminal window if using Mac or Linux, and a PowerShell window if using Windows. In the terminal, log on to the Jetson Nano with the following command, where <username> is the values you set up on your Nano during the operating system configuration:
+
+
+let get started {
+
+   ssh <username>@192.168.55.1
+   ! Enter the password you configured when asked.
+
+
+   mkdir -p ~/my_apps
+   !Add a data directory for the course with the following command in the Jetson Nano terminal you've logged into:
+
+
+    sudo docker run --runtime nvidia -it --rm --network host \
+    -v /tmp/.X11-unix/:/tmp/.X11-unix \
+    -v /tmp/argus_socket:/tmp/argus_socket \
+    -v ~/my_apps:/dli/task/my_apps \
+    --device /dev/video0 \
+    nvcr.io/nvidia/dli/dli-nano-deepstream:<tag>
+                   
+   ! Run the Docker container with the following command, where <tag> is a combination of the course version and DeepStream version (form is <tag> = <course_version>-<DeepStream_version>). A list of tags can be found in the course NVIDIA NGC cloud page.
+   check this for more https://catalog.ngc.nvidia.com/orgs/nvidia/teams/dli/containers/dli-nano-deepstream
+
+
+To create and run a reusable script for this step try the following (example tag shown):
+
+# create a reusable script
+echo "sudo docker run --runtime nvidia -it --rm --network host \
+    -v /tmp/.X11-unix/:/tmp/.X11-unix \
+    -v /tmp/argus_socket:/tmp/argus_socket \
+    -v ~/my_apps:/dli/task/my_apps \
+    --device /dev/video0 \
+    nvcr.io/nvidia/dli/dli-nano-deepstream:v2.0.0-DS6.0.1 " > ds_docker_run.sh
+
+# make the script executable
+chmod +x ds_docker_run.sh
+
+# run the script
+./ds_docker_run.sh
+                    
