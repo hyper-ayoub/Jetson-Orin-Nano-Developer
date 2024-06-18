@@ -1,0 +1,14 @@
+#TensorRt
+
+#get started
+TensorRT is a high performance neural network inference optimizer and runtime engine. It focuses specifically on running a pre-trained network quickly and efficiently, using a GPU for the purpose of generating a result (i.e., scoring, detecting, regression, or inference). The DeepStream Gst-nvinfer plugin implements TensorRT-based inferencing.
+
+# References
+https://developer.nvidia.com/blog/speed-up-inference-tensorrt/
+https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html#python_topics
+
+
+# download it
+https://developer.nvidia.com/tensorrt
+
+

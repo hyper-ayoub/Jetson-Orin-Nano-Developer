@@ -1,0 +1,13 @@
+#starting with deep stream app
+
+#get started
+https://docs.nvidia.com/metropolis/deepstream/dev-guide/
+
+#DeepStream In Python
+https://github.com/NVIDIA-AI-IOT/deepstream_python_apps
+
+#Python Sample Apps and Bindings Source Details
+https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Python_Sample_Apps.html
+
+#download it
+https://developer.nvidia.com/deepstream-getting-started
