@@ -1,4 +1,4 @@
-# 🚀 Transform Your Video Analytics with DeepStream SDK, GStreamer, and TensorRT
+# 🚀 DeepStream SDK, GStreamer, and TensorRT
 
 ## Summary 🌟
 Utilizing NVIDIA's DeepStream SDK 🌊, alongside the versatile GStreamer framework 🎥 and the AI acceleration power of TensorRT 🧠, you can achieve real-time video analytics with high efficiency and scalability. This integration is perfect for smart cities 🏙️, retail 🛍️, healthcare 🏥, and automotive 🚗 applications, enabling instant insights and optimized performance.
