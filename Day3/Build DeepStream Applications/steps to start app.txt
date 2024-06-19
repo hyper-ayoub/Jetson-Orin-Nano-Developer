@@ -16,7 +16,7 @@
 
 
 #Requirement
-  setup instructions (setp section)
+  setup instructions (setup section)
   Install Media Player and Run Media Player sections
-  Jetson Nano at 192.168.55.1:8888 
+  Jetson Nano at 192.168.55.1:8888 (port 8888)
   
