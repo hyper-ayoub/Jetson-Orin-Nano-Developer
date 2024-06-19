@@ -1,0 +1,26 @@
+DeepStream Course Notebooks:
+The following list is a summary of the exercise notebooks included in the course. Additional details about each can be found in the introduction notebook. Give them a try!
+Object Detection Application
+Notebook 1: Build a DeepStream pipeline to find objects in a video stream, and modify the configuration to change the objects detected.
+
+Analysis with Metadata
+Notebook 2: Extract metadata from the pipeline, analyze it, and add information such as object counts to the video annotation.
+
+Multiple Networks Application
+Notebook 3: Build a DeepStream application to find objects in a video stream, pass those images through multiple classification networks, and display detailed information about the objects in the output stream.
+
+Multiple Stream Input
+Notebook 4: Add the ability to run inference on multiple input streams with a tiled output.
+
+Video File Output
+Notebook 5: Add the ability to save an annotated video stream to a file in the format of your choice, for download and later use.
+
+Using Different Neural Networks
+Requires an Internet connection to the Jetson Nano
+Notebook 6: Change the neural network in the DeepStream Pipeline to another, such as YOLO (You Only Look Once).
+
+Disclaimer: The YOLO model is an open model taken from https://pjreddie.com/darknet and https://github.com/pjreddie/darknet. NVIDIA doesn't guarantee accuracy of this model. The accuracy might vary based on the video.
+Tip: You can try your own videos with this lab, or download some from the Internet from sites such as https://www.pexels.com/ or https://www.videvo.net/.
+Live Stream
+Requires a USB webcam connected to the Jetson Nano
+Notebook 7: Run inference on a live stream from a webcam connected to the Jetson Nano.

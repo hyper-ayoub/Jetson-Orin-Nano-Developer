@@ -1,0 +1,22 @@
+#start app with this steps
+
+#Run Your First DeepStream Application
+
+{
+
+
+  1: If you have not already done so, connect your Jetson Nano following the setup instructions and review the JupyterLab page for information on JupyterLab features.
+  2: hroughout the course notebooks, you'll build upon DeepStream SDK sample applications to create new applications of your own. You'll be able to watch the streams on your computer using the media player. If you did not install it yet, do so before beginning the exercises: refer back to the Install Media Player and Run Media Player sections.
+  3: Log into the Jetson Nano at 192.168.55.1:8888 and enter the password dlinano if prompted.
+  4: JupyterLab will initially open to the introduction notebook, which provides an overview of the project notebooks in the course. When you're ready, scroll down to the table of contents and choose the first notebook (double-click) to try the first object detection sample.
+  
+  
+}
+
+
+
+#Requirement
+  setup instructions (setp section)
+  Install Media Player and Run Media Player sections
+  Jetson Nano at 192.168.55.1:8888 
+  
